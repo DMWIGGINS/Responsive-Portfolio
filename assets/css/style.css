@@ -1,0 +1,530 @@
+        /* style for Basic-Portfolio */
+    /* basic body format */
+
+    body {
+        font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        color: #777777;
+    }
+    /* Main header which includes name block and nav bar */
+
+    #mainheader {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        background-color: #ffffff;
+        border-color: #cccccc;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        padding-left: 120px;
+        height: 90px;
+    }
+    /* Name block */
+
+    .name {
+        height: 60px;
+        width: 250px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 25px;
+        margin-left: 30px;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 150%;
+        float: left;
+    }
+    /* Nav bar with menu */
+
+    nav {
+        padding-top: 25px;
+        padding-right: 130px;
+        margin-right: 100px;
+        float: right;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 5px;
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+    }
+    /* add border lines to nav menu */
+
+    #port {
+        border-right-color: rgb( 119, 119, 119);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-left-color: rgb( 119, 119, 119);
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+    /* Main part of page between header and footer */
+
+    #container {
+        background-image: url(../images/squared_metal.png);
+        height: 560px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    /* Main content of index page about me */
+
+    .aboutme {
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-style: solid;
+        border-width: 2px;
+        width: 570px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 120px;
+        float: left;
+        line-height: 2;
+    }
+
+    h3,
+    h5,
+    h6 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #4aaaa5;
+        font-size: 25px;
+        border-color: #cccccc;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        line-height: 3;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #4aaaa5;
+        border-color: #cccccc;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /* My photo */
+
+    #bioimage {
+        height: 150 px;
+        width: 225px;
+        margin-right: 30px;
+        float: left;
+    }
+    /* icons to connect with me on social media */
+
+    aside {
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-style: solid;
+        border-width: 2px;
+        height: 130px;
+        width: 210px;
+        float: left;
+        margin-left: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    #git,
+    #linked,
+    #stack {
+        margin: 1px;
+    }
+    /* details for main box on contact page */
+
+    input {
+        width: 540px;
+        padding: 10px;
+    }
+
+    #message {
+        height: 110px;
+    }
+
+    button {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .contact {
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-style: solid;
+        border-width: 2px;
+        width: 570px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 120px;
+        float: left;
+        line-height: 2;
+    }
+
+    #message [type=text] {
+        padding: 40px;
+    }
+    /* Main section with portfolio links and photos on Portfolio page */
+
+    .portfolio {
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-style: solid;
+        border-width: 2px;
+        width: 500px;
+        padding-top: 10px;
+        /* padding-bottom: 30px; */
+        padding-left: 50px;
+        padding-right: 20px;
+        margin-left: 120px;
+        float: left;
+        line-height: 2;
+    }
+
+    div {
+        position: relative;
+    }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5 {
+        position: relative;
+        height: 125px;
+        width: 200px;
+        margin: 15px;
+        float: left;
+    }
+
+    #abstract {
+        height: 125px;
+        width: 200px;
+    }
+
+    div1,
+    div2,
+    div3,
+    div4,
+    div5 {
+        position: absolute;
+        z-index: 2;
+        width: 200px;
+        height: 25;
+        bottom: 5px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+    }
+    /* footer with copyright */
+
+    footer {
+        background-color: #666666;
+        border-color: #4aaaa5;
+        border-top-style: solid;
+        border-top-width: 7px;
+        height: 50px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    /* adjust viewing for smaller device of max 960px */
+
+    @media screen and (max-width: 980px) {
+        #container {
+            background-image: url(../images/stardust.png);
+            height: 1500px;
+            padding-bottom: 40px;
+        }
+        nav {
+            padding-right: 180px;
+            margin-right: 0px;
+        }
+        .aboutme {
+            width: 350px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 40px;
+        }
+        #bioimage {
+            height: 260px;
+            width: 355px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            width: 350px;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 700px
+        }
+        input {
+            width: 320px;
+        }
+        #message {
+            height: 250px;
+        }
+        .portfolio {
+            width: 300px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            padding-left: 10px;
+            padding-right: 20px;
+            margin-left: 120px;
+        }
+        .gallery1,
+        .gallery2,
+        .gallery3,
+        .gallery4,
+        .gallery5 {
+            height: 240px;
+            width: 300px;
+            margin-left: 5px;
+            margin-top: 25px;
+        }
+        #abstract {
+            height: 240px;
+            width: 300px;
+        }
+        div1,
+        div2,
+        div3,
+        div4,
+        div5 {
+            width: 300px;
+            height: 40px;
+            bottom: 5px;
+            padding-top: 10;
+        }
+    }
+    /* adjust  viewing for smaller device of max 768px */
+
+    @media screen and (max-width: 768px) {
+        #container {
+            background-image: url(../images/squared_metal.png);
+            height: 1500px;
+            padding-bottom: 0px;
+            padding-top: 40px;
+        }
+        nav {
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+        .aboutme {
+            width: 660px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 0px;
+        }
+        #bioimage {
+            height: 250px;
+            width: 330px;
+            margin-bottom: 10px;
+        }
+        h4 {
+            text-align: left;
+        }
+        aside {
+            height: 130px;
+            width: 660px;
+            margin-left: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        #mainheader {
+            padding-left: 0px;
+            padding-right: 20px;
+        }
+        footer {
+            height: 50px;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .contact {
+            width: 660px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 0px;
+            height: 400px;
+        }
+        input {
+            width: 630px;
+        }
+        #message {
+            height: 20px;
+        }
+        .portfolio {
+            width: 660px;
+            /* padding-bottom: 30px; */
+            padding-left: 20px;
+            margin-bottom: 40px;
+            margin-left: 0px;
+        }
+        .gallery1,
+        .gallery2,
+        .gallery3,
+        .gallery4,
+        .gallery5 {
+            height: 240px;
+            width: 300px;
+            margin: 15px;
+        }
+        #abstract {
+            height: 240px;
+            width: 300px;
+        }
+        div1,
+        div2,
+        div3,
+        div4,
+        div5 {
+            position: absolute;
+            z-index: 2;
+            width: 300px;
+            height: 40;
+            bottom: 5px;
+            padding-top: 10px;
+        }
+        /* adjust  viewing for smaller device of max 640px */
+        @media screen and (max-width: 640px) {
+            #mainheader {
+                height: 150px;
+                padding-left: 0px;
+                width: 900px;
+            }
+            .name {
+                margin-left: 0px;
+                width: 900px;
+                padding-top: 30px;
+            }
+            nav {
+                height: 75px;
+                padding-top: 0px;
+                width: 900px;
+                margin-right: 0px;
+                padding-right: 0px;
+            }
+            ul {
+                padding: 15px;
+                padding-left: 200px;
+                text-align: center;
+            }
+            li a {
+                width: 150px;
+            }
+            #container {
+                background-image: url(../images/stardust.png);
+                height: 1200px;
+                width: 900px;
+                padding-bottom: 40px;
+                padding-top: 40;
+            }
+            .aboutme {
+                width: 520px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-bottom: 40px;
+                margin-left: 150px;
+            }
+            #bioimage {
+                height: 400px;
+                width: 500px;
+                margin-bottom: 10px;
+            }
+            aside {
+                height: 150px;
+                width: 520px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 30px;
+                margin-left: 150px;
+            }
+            .contact {
+                width: 500px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 30px;
+                padding-left: 30px;
+                margin-left: 150px;
+                height: 750px;
+            }
+            input {
+                width: 480px;
+            }
+            #message {
+                height: 275px;
+            }
+            .portfolio {
+                background-color: #ffffff;
+                border-color: #dddddd;
+                border-style: solid;
+                border-width: 2px;
+                width: 600px;
+                padding-top: 10px;
+                /* padding-bottom: 30px; */
+                padding-left: 10px;
+                padding-right: 20px;
+                margin-left: 120px;
+                float: left;
+                line-height: 2;
+            }
+            div {
+                position: relative;
+            }
+            .gallery1,
+            .gallery2,
+            .gallery3,
+            .gallery4,
+            .gallery5 {
+                position: relative;
+                height: 460px;
+                width: 575px;
+                margin: 15px;
+                float: left;
+            }
+            #abstract {
+                height: 460px;
+                width: 575px;
+            }
+            div1,
+            div2,
+            div3,
+            div4,
+            div5 {
+                position: absolute;
+                z-index: 2;
+                width: 575px;
+                height: 25;
+                bottom: 5px;
+                background-color: #4aaaa5;
+                color: #ffffff;
+                text-align: center;
+            }
+            footer {
+                width: 900px;
+            }
+        }
